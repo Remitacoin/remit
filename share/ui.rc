@@ -1,0 +1,5 @@
+bitcoin               ICON    "pixmaps/remita.ico"
+
+#include "wx/msw/wx.rc"
+
+favicon               ICON    "pixmaps/favicon.ico"

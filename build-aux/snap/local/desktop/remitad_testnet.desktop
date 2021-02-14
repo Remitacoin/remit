@@ -1,0 +1,16 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=REMIT_Coin Daemon SNAP
+Comment=testnet
+GenericName=REMIT_Coin Digital Currency Daemon Client testnet network
+Exec=remita_coin-core.daemon-testnet %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/remita_coin_testnet.png
+MimeType=x-scheme-handler/remita;
+Categories=X-Office;X-Finance;
+Keywords=internet;remita_coin;zremita;core;wallet;daemon;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
+Name[en_IN]=remitad_testnet.desktop

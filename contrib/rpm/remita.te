@@ -1,0 +1,81 @@
+policy_module(remita, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type remita_t;
+type remita_exec_t;
+init_daemon_domain(remita_t, remita_exec_t)
+
+permissive remita_t;
+
+type remita_initrc_exec_t;
+init_script_file(remita_initrc_exec_t)
+
+type remita_conf_t;
+files_type(remita_conf_t)
+
+type remita_var_lib_t;
+files_type(remita_var_lib_t)
+
+type remita_var_run_t;
+files_type(remita_var_run_t)
+
+type remita_port_t;
+corenet_port(remita_port_t)
+
+########################################
+#
+# remita local policy
+#
+allow remita_t self:process { fork };
+
+allow remita_t self:fifo_file rw_fifo_file_perms;
+allow remita_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(remita_t, remita_conf_t, remita_conf_t)
+manage_files_pattern(remita_t, remita_conf_t, remita_conf_t)
+
+manage_dirs_pattern(remita_t, remita_var_lib_t, remita_var_lib_t)
+manage_files_pattern(remita_t, remita_var_lib_t, remita_var_lib_t)
+files_var_lib_filetrans(remita_t, remita_var_lib_t, { dir file })
+
+manage_dirs_pattern(remita_t, remita_var_run_t, remita_var_run_t)
+manage_files_pattern(remita_t, remita_var_run_t, remita_var_run_t)
+
+sysnet_dns_name_resolve(remita_t)
+corenet_all_recvfrom_unlabeled(remita_t)
+
+allow remita_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(remita_t)
+corenet_tcp_sendrecv_generic_node(remita_t)
+corenet_tcp_sendrecv_all_ports(remita_t)
+corenet_tcp_bind_generic_node(remita_t)
+
+gen_require(`
+    type remita_port_t;
+')
+allow remita_t remita_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type remita_port_t;
+')
+allow remita_t remita_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(remita_t)
+
+files_read_etc_files(remita_t)
+
+miscfiles_read_localization(remita_t)
+
+sysnet_dns_name_resolve(remita_t)
+
+allow remita_t remita_exec_t:file execute_no_trans;
+allow remita_t self:process setsched;
+corecmd_exec_ls(remita_t)
+corenet_tcp_connect_http_port(remita_t)
+dev_read_urand(remita_t)
+fs_getattr_xattr_fs(remita_t)
+kernel_read_system_state(remita_t)

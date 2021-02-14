@@ -1,0 +1,3 @@
+usr/local/bin/remitad usr/bin
+usr/local/bin/remita-cli usr/bin
+debian/examples/remita.conf etc/remita

@@ -1,0 +1,14 @@
+QT_TS = \
+  qt/locale/remita_de.ts \
+  qt/locale/remita_en.ts \
+  qt/locale/remita_en_US.ts \
+  qt/locale/remita_es.ts \
+  qt/locale/remita_fr_FR.ts \
+  qt/locale/remita_hr_HR.ts \
+  qt/locale/remita_it.ts \
+  qt/locale/remita_ko_KR.ts \
+  qt/locale/remita_nl.ts \
+  qt/locale/remita_pl.ts \
+  qt/locale/remita_ru.ts \
+  qt/locale/remita_tr.ts \
+  qt/locale/remita_zh_CN.ts

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=remita
+Comment=remita P2P Cryptocurrency
+Exec=remita-qt %u
+Terminal=false
+Type=Application
+Icon=remita128
+MimeType=x-scheme-handler/remita;
+Categories=Office;Finance;
+StartupWMClass=remita-qt
+Name[en_IN]=remita-qt.desktop

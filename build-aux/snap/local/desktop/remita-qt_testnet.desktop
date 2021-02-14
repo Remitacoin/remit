@@ -1,0 +1,16 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=REMIT_Coin
+Comment=REMIT_Coin QT test network
+GenericName=REMIT_Coin Digital Currency QT client testnet network
+Exec=remita_coin-core.qt-testnet %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/remita_coin_testnet.png
+MimeType=x-scheme-handler/remita;
+Categories=X-Office;X-Finance;
+Keywords=internet;remita_coin;zremita;tremita;core;wallet;qt;testnet;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Version=1.0
+Name[en_IN]=remita-qt_testnet.desktop

@@ -1,0 +1,6 @@
+usr/local/bin/remita-qt usr/bin
+share/pixmaps/remita32.xpm usr/share/pixmaps
+share/pixmaps/remita16.xpm usr/share/pixmaps
+share/pixmaps/remita128.png usr/share/pixmaps
+debian/remita-qt.desktop usr/share/applications
+debian/remita-qt.protocol usr/share/kde4/services/
