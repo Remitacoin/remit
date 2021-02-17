@@ -1,5 +1,5 @@
 <h1>REMITA COIN repository</h1>
-<p> REMITA is a digital crypto currency based on blockchain technology to support REMITA-VPS platform, powered by own REMITA blockchain.<p>
+<p> REMITA is a digital crypto currency based on blockchain technology to support Remita-preloaded holiday makers digital debit card platform, powered by own REMITA blockchain.<p>
 <p> REMITA utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of REMITA to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to have passive income of REMITA COIN.<p>
 
 <br> More information at: <br>

@@ -962,7 +962,7 @@
                    <item alignment="Qt::AlignHCenter">
                     <widget class="QLabel" name="labelMessage2">
                      <property name="text">
-                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;REMIT is a digital crypto currency based on blockchain tecnology to support REMIT-VPS platform, powered by own REMIT blockchain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;REMIT is a digital crypto currency based on blockchain tecnology to support Remita-preloaded holiday makers digital debit card, powered by own REMIT blockchain.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -1138,7 +1138,7 @@
                 <item>
                  <widget class="QLabel" name="labelMessage4">
                   <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is an instruments for investing and having passive income of REMIT Coin. REMIT coin used as main active in our P2P platform to pay service fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is an instruments for investing and having passive income of Remitacoin. Remitacoin used as main active in our P2P platform to pay service fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignCenter</set>
