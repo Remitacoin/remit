@@ -3,10 +3,6 @@
 <p> REMITA utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of REMITA to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to have passive income of REMITA COIN.<p>
 
 <br> More information at: <br>
- - Website [REMITA-VPS](https://REMITAavps.com)
- - Block Explorer [EXPLORER](http://104.155.183.25:3001/)
- - Join community in [DISCORD](https://discord.gg/RpBXAnvp7k)
- - Github [GITHUB](https://github.com/REMITAavps-project/REMITAa)
   
   
 <h2><strong>Specification:</strong></h2>
