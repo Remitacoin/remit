@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <td>Maximum Supply</td>
-<td>150 000 000 REMITA</td>
+<td>210 000 000 REMITA</td>
 </tr>
 <tr>
 <td>Minimum Stake Age</td>
@@ -52,12 +52,12 @@
 <tr>
 <td class="xl65" style="width: 120px; text-align: center;">0</td>
 <td class="xl65" style="width: 120px; text-align: center;">1</td>
-<td class="xl65" style="width: 180px; text-align: center;">1 050 000 [Pre-Mine]</td>
+<td class="xl65" style="width: 180px; text-align: center;">400 000 [Pre-Mine]</td>
 </tr>
 <tr>
 <td class="xl65" style="width: 120px; text-align: center;">2</td>
-<td class="xl65" style="width: 120px; text-align: center;">1440</td>
-<td class="xl65" style="width: 180px; text-align: center;">100 [For Network Stability]</td>
+<td class="xl65" style="width: 120px; text-align: center;">1000</td>
+<td class="xl65" style="width: 180px; text-align: center;">250 [Used in Network Stability]</td>
 </tr>
 </table>
 <br>
@@ -73,15 +73,15 @@
 <td class="xl66" style="width: 120px; text-align: center;"><strong>POS Reward</strong></td>
 </tr>
 <tr>
-<td class="xl65" style="width: 120px; text-align: center;">1441</td>
-<td class="xl65" style="width: 120px; text-align: center;">25000</td>
-<td class="xl65" style="width: 180px; text-align: center;">100</td>
-<td class="xl65" style="width: 120px; text-align: center;">0.40</td>
-<td class="xl65" style="width: 120px; text-align: center;">0.38</td>
-<td class="xl66" style="width: 120px; text-align: center;">0.02</td>
+<td class="xl65" style="width: 120px; text-align: center;">1001</td>
+<td class="xl65" style="width: 120px; text-align: center;">20000</td>
+<td class="xl65" style="width: 180px; text-align: center;">50</td>
+<td class="xl65" style="width: 120px; text-align: center;">0.30</td>
+<td class="xl65" style="width: 120px; text-align: center;">0.27</td>
+<td class="xl66" style="width: 120px; text-align: center;">0.015</td>
 </tr>
 <tr>
-<td class="xl65" style="width: 120px; text-align: center;">25001</td>
+<td class="xl65" style="width: 120px; text-align: center;">20001</td>
 <td class="xl65" style="width: 120px; text-align: center;">50000</td>
 <td class="xl65" style="width: 180px; text-align: center;">500</td>
 <td class="xl65" style="width: 120px; text-align: center;">1.00</td>
