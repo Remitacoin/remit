@@ -10,7 +10,7 @@
 <tbody>
 <tr>
 <td>Coin Name & Ticker</td>
-<td>REMITA [REMITA]</td>
+<td>REMITA [REMIT]</td>
 </tr>
 <tr>
 <td>Coin Type</td>
@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <td>Maximum Supply</td>
-<td>210 000 000 REMITA</td>
+<td>150 000 000 REMITA</td>
 </tr>
 <tr>
 <td>Minimum Stake Age</td>
@@ -30,7 +30,7 @@
 </tr>
 <tr>
 <td>Coin Maturity</td>
-<td>100+1 Block</td>
+<td>90+1 Block</td>
 </tr>
 <tr>
 <td>Network Port</td>
